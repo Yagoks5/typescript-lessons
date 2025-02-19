@@ -1,3 +1,7 @@
 "use strict";
 let nome = "Yago";
-let valor = 0;
+let idade = 24;
+let pudim = "doce";
+console.log(nome);
+console.log(idade);
+console.log(pudim);
