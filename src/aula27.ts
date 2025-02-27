@@ -1,12 +1,21 @@
 interface curso {
   titulo: string;
   descricao: string;
-  aulas: number;
-  maxAlunos: number;
+  //   iniciarCurso(teste: string): void;
 }
 
-let curso1: curso;
-let curso2: curso;
+interface cursoProg extends curso {
+  aulas: number;
+  maxAlunos?: number;
+}
+
+interface cursoArtes extends curso {
+  aulas: number;
+  maxAlunos?: number;
+}
+
+let curso1: cursoProg;
+let curso2: cursoArtes;
 
 curso1 = {
   titulo: "Typescript",
@@ -18,5 +27,4 @@ curso2 = {
   titulo: "C#",
   descricao: "Curso C#",
   aulas: 100,
-  maxAlunos: 20,
 };

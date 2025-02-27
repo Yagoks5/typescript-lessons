@@ -11,5 +11,4 @@ curso2 = {
     titulo: "C#",
     descricao: "Curso C#",
     aulas: 100,
-    maxAlunos: 20,
 };
