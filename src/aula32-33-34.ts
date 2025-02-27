@@ -159,3 +159,5 @@ console.log(carro01);
 carro01.getEstouLigado();
 carro01.desligar();
 carro01.getEstouLigado();
+
+let carro2 = new Veiculos.CarroPopular("Uno", Veiculos.Colors.RED);
