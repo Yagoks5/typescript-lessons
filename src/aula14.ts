@@ -14,6 +14,7 @@ const fsoma2 = (n: number[]): number => {
 
 teste("testeasdsads");
 teste();
+
 console.log("===================");
 
 let arrayNumeros: number[] = [10, 15, 78, 95, 32, 0, 1];
